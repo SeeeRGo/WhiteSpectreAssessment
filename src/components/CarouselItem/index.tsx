@@ -18,6 +18,8 @@ export const CarouselItem = ({ title, images, show }: Props) => (
       minWidth: "25%",
       maxWidth: "25%",
       height: '100%',
+      paddingRight: '10px',
+      boxSizing: 'border-box',
       opacity: show ? 1 : 0,
     }}
   >
